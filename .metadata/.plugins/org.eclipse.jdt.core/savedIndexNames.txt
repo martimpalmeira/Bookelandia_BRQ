@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/junior/Desktop/BRQiava/.metadata/.plugins/org.eclipse.jdt.core
+2428651316.index
+544838490.index
+4047669290.index

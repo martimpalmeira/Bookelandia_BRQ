@@ -1,0 +1,83 @@
+package appBookelandia.model;
+
+public class Chamados {
+	
+	private String ticket;
+
+	private Integer status;
+	
+	private String codigoDoFuncionario;
+	
+	private String codigoDoCliente;
+	
+	private String codigoDoPedido;
+	
+	private String descricao;
+	
+	public Chamados(String descricao, String codigoDoCliente) {
+		this.descricao = descricao;
+		this.codigoDoCliente = codigoDoCliente;	
+	}
+
+	public Chamados(Integer status, String codigoDoFuncionario, String codigoDoCliente,
+			String codigoDoPedido, String descricao) {
+		this.status = status;
+		this.codigoDoFuncionario = codigoDoFuncionario;
+		this.codigoDoCliente = codigoDoCliente;
+		this.codigoDoPedido = codigoDoPedido;
+		this.descricao = descricao;
+	}
+
+
+
+	public String getTicket() {
+		return ticket;
+	}
+
+	public void setTicket(String ticket) {
+		this.ticket = ticket;
+	}
+
+	public Integer getStatus() {
+		return status;
+	}
+
+	public void setStatus(Integer status) {
+		this.status = status;
+	}
+
+	public String getCodigoDoFuncionario() {
+		return codigoDoFuncionario;
+	}
+
+	public void setCodigoDoFuncionario(String codigoDoFuncionario) {
+		this.codigoDoFuncionario = codigoDoFuncionario;
+	}
+
+	public String getCodigoDoCliente() {
+		return codigoDoCliente;
+	}
+
+	public void setCodigoDoCliente(String codigoDoCliente) {
+		this.codigoDoCliente = codigoDoCliente;
+	}
+
+	public String getCodigoDoPedido() {
+		return codigoDoPedido;
+	}
+
+	public void setCodigoDoPedido(String codigoDoPedido) {
+		this.codigoDoPedido = codigoDoPedido;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	
+	
+	
+}
